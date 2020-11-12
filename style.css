@@ -22,19 +22,16 @@ body {
 
 .cloud-slider {
   padding: 0; }
+  .cloud-slider img {
+    width: 100%; }
 
 .navbar-collapse {
   justify-content: end; }
-  .navbar-collapse img {
-    width: 100%; }
-
-.cloud-slider {
-  width: 100%; }
 
 .section-one {
   text-align: center;
   padding-top: 5%; }
   .section-one h2 {
-    color: green; }
+    color: #026d60; }
 
 /*# sourceMappingURL=style.css.map */
