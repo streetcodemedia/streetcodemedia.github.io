@@ -14,7 +14,8 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 body {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  font-family: raleway; }
 
 .slider-bottom {
   background: #8ab7b1;
@@ -22,8 +23,8 @@ body {
   color: white; }
 
 .cloud-slider {
-  padding-left: 0;
-  padding-right: 0; }
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
   .cloud-slider img {
     width: 80%; }
 
@@ -32,15 +33,21 @@ body {
 
 .content-section-one {
   text-align: center;
-  background: gainsboro;
-  padding-top: 5%; }
+  background: #eeeeee;
+  padding-top: 5%;
+  padding-bottom: 5%; }
   .content-section-one h2 {
     color: #026d60; }
 
 .content-section-two {
   text-align: center;
-  padding-top: 5%; }
+  padding-top: 5%;
+  padding-bottom: 5%; }
   .content-section-two h2 {
-    color: #026d60; }
+    color: #026d60;
+    padding-bottom: 3%; }
+
+.section-two-wrapper-two img {
+  width: 30%; }
 
 /*# sourceMappingURL=style.css.map */
