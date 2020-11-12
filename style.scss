@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 Theme Name: 
 Theme URI: 
@@ -13,28 +14,35 @@ Text Domain: twentythirteen
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+
 body {
-  overflow-x: hidden; }
+	overflow-x: hidden;
+}
 
 .slider-bottom {
-  background: #8ab7b1;
-  padding: 1% 5% 5% 3%; }
+	background: #8ab7b1;
+	padding: 1% 5% 5% 3%;
+}
 
 .cloud-slider {
-  padding: 0; }
+	padding: 0;
+	
+}
 
 .navbar-collapse {
-  justify-content: end; }
-  .navbar-collapse img {
-    width: 100%; }
-
-.cloud-slider {
-  width: 100%; }
+	justify-content: end;
+	img {
+		width: 100%;
+	}
+}
+.cloud-slider  {
+	width: 100%;
+}
 
 .section-one {
-  text-align: center;
-  padding-top: 5%; }
-  .section-one h2 {
-    color: green; }
-
-/*# sourceMappingURL=style.css.map */
+	text-align: center;
+	padding-top: 5%;
+	h2 {
+		color: green;
+	}
+}
