@@ -18,20 +18,29 @@ body {
 
 .slider-bottom {
   background: #8ab7b1;
-  padding: 1% 5% 5% 3%; }
+  padding: 1% 5% 5% 3%;
+  color: white; }
 
 .cloud-slider {
-  padding: 0; }
+  padding-left: 0;
+  padding-right: 0; }
   .cloud-slider img {
     width: 80%; }
 
 .navbar-collapse {
   justify-content: end; }
 
-.section-one {
+.content-section-one {
+  text-align: center;
+  background: gainsboro;
+  padding-top: 5%; }
+  .content-section-one h2 {
+    color: #026d60; }
+
+.content-section-two {
   text-align: center;
   padding-top: 5%; }
-  .section-one h2 {
+  .content-section-two h2 {
     color: #026d60; }
 
 /*# sourceMappingURL=style.css.map */
